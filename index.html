@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="button.css">
+    <script type="module" src="app.js"></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Precios Dolares</h1>
+            <div>
+                <article>
+                    <header>
+                        <h2>Dolar Oficial</h2>
+                        <h3>Actualizado: <span class="fecha" id="oficial-fecha">Oct 8, 15:19 pm</span></h3>
+                    </header>
+                    <div>
+                        <p>Compra: <span class="compra" id="oficial-compra">$54322</span></p>
+                        <p>Venta: <span class="venta" id="oficial-venta">$5432</span></p>
+                    </div>
+                    <footer>
+                        <div>
+                            <h3>Operar con el valor de:</h3>
+                            <div class="toggle-button-cover">
+                                <div class="button-cover">
+                                    <div class="button b2" id="button-10">
+                                        <input type="checkbox" class="checkbox" />
+                                        <div class="knobs">
+                                            <span>Compra</span>
+                                        </div>
+                                        <div class="layer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="compra-dolar">
+                            <label>
+                                USD
+                                <input name="usd" type="text" min="0" placeholder="1">
+                            </label>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-diff">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M11 16h10" />
+                                <path d="M11 16l4 4" />
+                                <path d="M11 16l4 -4" />
+                                <path d="M13 8h-10" />
+                                <path d="M13 8l-4 4" />
+                                <path d="M13 8l-4 -4" />
+                            </svg>
+                            <label>
+                                ARS
+                                <input name="ars" type="text" placeholder="1000">
+                            </label>
+                        </form>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h2>Dolar Blue</h2>
+                        <h3>Actualizado: <span class="fecha" id="blue-fecha">?</span></h3>
+                    </header>
+                    <div>
+                        <p>Compra: <span class="compra" id="blue-compra">?</span></p>
+                        <p>Venta: <span class="venta" id="blue-venta">?</span></p>
+                    </div>
+                    <footer>
+                        <div>
+                            <h3>Operar con el valor de:</h3>
+                            <div class="toggle-button-cover">
+                                <div class="button-cover">
+                                    <div class="button b2" id="button-10">
+                                        <input type="checkbox" class="checkbox" />
+                                        <div class="knobs">
+                                            <span>Compra</span>
+                                        </div>
+                                        <div class="layer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="compra-dolar">
+                            <label>
+                                USD
+                                <input name="usd" type="text" min="0" placeholder="1">
+                            </label>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-diff">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M11 16h10" />
+                                <path d="M11 16l4 4" />
+                                <path d="M11 16l4 -4" />
+                                <path d="M13 8h-10" />
+                                <path d="M13 8l-4 4" />
+                                <path d="M13 8l-4 -4" />
+                            </svg>
+                            <label>
+                                ARS
+                                <input name="ars" type="text" placeholder="1000">
+                            </label>
+                        </form>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h2>Dolar MEP</h2>
+                        <h3>Actualizado: <span class="fecha" id="mep-fecha">?</span></h3>
+                    </header>
+                    <div>
+                        <p>Compra: <span class="compra" id="mep-compra">?</span></p>
+                        <p>Venta: <span class="venta" id="mep-venta">?</span></p>
+                    </div>
+                    <footer class="compra-dolar">
+                        <div>
+                            <h3>Operar con el valor de:</h3>
+                            <div class="toggle-button-cover">
+                                <div class="button-cover">
+                                    <div class="button b2" id="button-10">
+                                        <input type="checkbox" class="checkbox" />
+                                        <div class="knobs">
+                                            <span>Compra</span>
+                                        </div>
+                                        <div class="layer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            <label>
+                                USD
+                                <input name="usd" type="text" min="0" placeholder="1">
+                            </label>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-diff">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M11 16h10" />
+                                <path d="M11 16l4 4" />
+                                <path d="M11 16l4 -4" />
+                                <path d="M13 8h-10" />
+                                <path d="M13 8l-4 4" />
+                                <path d="M13 8l-4 -4" />
+                            </svg>
+                            <label>
+                                ARS
+                                <input name="ars" type="text" placeholder="1000">
+                            </label>
+                        </form>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h2>Dolar Cripto</h2>
+                        <h3>Actualizado: <span class="fecha" id="cripto-fecha">?</span></h3>
+                    </header>
+                    <div>
+                        <p>Compra: <span class="compra" id="cripto-compra">?</span></p>
+                        <p>Venta: <span class="venta" id="cripto-venta">?</span></p>
+                    </div>
+                    <footer class="compra-dolar">
+                        <div>
+                            <h3>Operar con el valor de:</h3>
+                            <div class="toggle-button-cover">
+                                <div class="button-cover">
+                                    <div class="button b2" id="button-10">
+                                        <input type="checkbox" class="checkbox" />
+                                        <div class="knobs">
+                                            <span>Compra</span>
+                                        </div>
+                                        <div class="layer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            <label>
+                                USD
+                                <input name="usd" type="text" min="0" placeholder="1">
+                            </label>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-diff">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M11 16h10" />
+                                <path d="M11 16l4 4" />
+                                <path d="M11 16l4 -4" />
+                                <path d="M13 8h-10" />
+                                <path d="M13 8l-4 4" />
+                                <path d="M13 8l-4 -4" />
+                            </svg>
+                            <label>
+                                ARS
+                                <input name="ars" type="text" placeholder="1000">
+                            </label>
+                        </form>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <h2>Dolar Tarjeta</h2>
+                        <h3>Actualizado: <span class="fecha" id="tarjeta-fecha">?</span></h3>
+                    </header>
+                    <div>
+                        <p>Compra: <span class="compra" id="tarjeta-compra">?</span></p>
+                        <p>Venta: <span class="venta" id="tarjeta-venta">?</span></p>
+                    </div>
+                    <footer class="compra-dolar">
+                        <div>
+                            <h3>Operar con el valor de:</h3>
+                            <div class="toggle-button-cover">
+                                <div class="button-cover">
+                                    <div class="button b2" id="button-10">
+                                        <input type="checkbox" class="checkbox" />
+                                        <div class="knobs">
+                                            <span>Compra</span>
+                                        </div>
+                                        <div class="layer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            <label>
+                                USD
+                                <input name="usd" type="text" min="0" placeholder="1">
+                            </label>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-diff">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M11 16h10" />
+                                <path d="M11 16l4 4" />
+                                <path d="M11 16l4 -4" />
+                                <path d="M13 8h-10" />
+                                <path d="M13 8l-4 4" />
+                                <path d="M13 8l-4 -4" />
+                            </svg>
+                            <label>
+                                ARS
+                                <input name="ars" type="text" placeholder="1000">
+                            </label>
+                        </form>
+                    </footer>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
