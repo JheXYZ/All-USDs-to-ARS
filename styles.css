@@ -77,9 +77,8 @@ main section div article header h3 {
     /* white-space: nowrap; */
     min-width: fit-content;
     font-weight: lighter;
-    margin-left: 5px;
     font-size: 1rem;
-    color: #148a0a;
+    color: #053f00;
 }
 
 main section div article div {
